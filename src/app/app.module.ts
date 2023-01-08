@@ -18,6 +18,12 @@ import { BiografiaComponent } from './Components/biografia/biografia.component';
 import { NomApComponent } from './Components/nom-ap/nom-ap.component';
 import { TituloComponent } from './Components/titulo/titulo.component';
 import { DescripcionComponent } from './Components/descripcion/descripcion.component';
+import { ExperienciaComponent } from './Components/experiencia/experiencia.component';
+import { EstudiosComponent } from './Components/estudios/estudios.component';
+import { HabilidadesComponent } from './Components/habilidades/habilidades.component';
+import { ProyectosComponent } from './Components/proyectos/proyectos.component';
+import { GrupoTarjetasComponent } from './Components/grupo-tarjetas/grupo-tarjetas.component';
+import { TarjetaComponent } from './Components/tarjeta/tarjeta.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +41,13 @@ import { DescripcionComponent } from './Components/descripcion/descripcion.compo
     BiografiaComponent,
     NomApComponent,
     TituloComponent,
-    DescripcionComponent
+    DescripcionComponent,
+    ExperienciaComponent,
+    EstudiosComponent,
+    HabilidadesComponent,
+    ProyectosComponent,
+    GrupoTarjetasComponent,
+    TarjetaComponent
   ],
   imports: [
     BrowserModule,

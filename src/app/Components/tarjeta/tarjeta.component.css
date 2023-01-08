@@ -1,0 +1,28 @@
+.tarjeta{
+    display: flex;
+    min-height: 50px;
+    padding: 10px 17px;
+}
+
+img{
+    width: 80%;
+    border-radius: 7px;
+}
+
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    width: 90%;
+    justify-content: center;
+}
+
+p{
+    margin-top: 3px;
+    font-size: 15px;
+}
+
+.aux{
+    display: flex;
+    justify-content: space-between;
+}
