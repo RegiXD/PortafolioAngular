@@ -1,0 +1,42 @@
+.progreso{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px;
+    margin-bottom: 45px;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+.progreso1 {
+    border-top: 10px solid rgba(87, 136, 106, 0.323);
+    border-right: 20px solid rgba(87, 136, 106, 0.323);
+    border-bottom: 20px solid rgba(87, 136, 106, 0.323);
+    border-left: 10px solid rgb(34, 139, 74);
+    animation-name: ingles;
+    animation-duration: 2s;
+}
+
+.texto{
+    font-weight: 1000;
+    color: rgb(211 211 211);
+    width: fit-content;
+    position: relative;
+    margin: 115% auto 0px;
+}
+
+@keyframes progreso1{
+    0% {
+        border-top: 10px solid rgba(87, 136, 106, 0.323);
+        border-right: 20px solid rgba(87, 136, 106, 0.323);
+        border-bottom: 20px solid rgba(87, 136, 106, 0.323);
+        border-left: 10px solid rgba(87, 136, 106, 0.323);
+    } 
+    to {
+        border-top: 10px solid rgba(87, 136, 106, 0.323);
+        border-right: 20px solid rgba(87, 136, 106, 0.323);
+        border-bottom: 20px solid rgba(87, 136, 106, 0.323);
+        border-left: 10px solid rgb(34, 139, 74);
+    }
+}

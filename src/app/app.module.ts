@@ -24,6 +24,11 @@ import { HabilidadesComponent } from './Components/habilidades/habilidades.compo
 import { ProyectosComponent } from './Components/proyectos/proyectos.component';
 import { GrupoTarjetasComponent } from './Components/grupo-tarjetas/grupo-tarjetas.component';
 import { TarjetaComponent } from './Components/tarjeta/tarjeta.component';
+import { Progreso1Component } from './Components/progreso1/progreso1.component';
+import { Progreso2Component } from './Components/progreso2/progreso2.component';
+import { Progreso3Component } from './Components/progreso3/progreso3.component';
+import { Progreso4Component } from './Components/progreso4/progreso4.component';
+import { Progreso0Component } from './Components/progreso0/progreso0.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +52,12 @@ import { TarjetaComponent } from './Components/tarjeta/tarjeta.component';
     HabilidadesComponent,
     ProyectosComponent,
     GrupoTarjetasComponent,
-    TarjetaComponent
+    TarjetaComponent,
+    Progreso1Component,
+    Progreso2Component,
+    Progreso3Component,
+    Progreso4Component,
+    Progreso0Component
   ],
   imports: [
     BrowserModule,

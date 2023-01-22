@@ -1,4 +1,6 @@
 .container {
-    padding: 16px;
-    background-color: #0d6dfd38;
+    padding: 33px;
+    background-image: linear-gradient(rgb(91 70 253 / 70%), rgb(245 2 2 / 27%)),
+                      url(../assets/Imagenes/fondo.jpg);
+    background-repeat: repeat;
 }
