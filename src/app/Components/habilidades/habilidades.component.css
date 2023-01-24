@@ -1,4 +1,9 @@
 .habilidades{
     display: flex;
     justify-content: space-around;
+    background: linear-gradient(rgba(1, 12, 132, 0.5) 0%, rgba(152, 2, 2, 0.5) 100%);
+    padding: 20px 0px 0px 0px;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.444);
+    margin-bottom: 20px;
 }

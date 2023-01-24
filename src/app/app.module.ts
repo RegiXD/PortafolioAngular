@@ -22,8 +22,8 @@ import { ExperienciaComponent } from './Components/experiencia/experiencia.compo
 import { EstudiosComponent } from './Components/estudios/estudios.component';
 import { HabilidadesComponent } from './Components/habilidades/habilidades.component';
 import { ProyectosComponent } from './Components/proyectos/proyectos.component';
-import { GrupoTarjetasComponent } from './Components/grupo-tarjetas/grupo-tarjetas.component';
-import { TarjetaComponent } from './Components/tarjeta/tarjeta.component';
+import { ListGroupComponent } from './Components/list-group/list-group.component';
+import { ItemListComponent } from './Components/item-list/item-list.component';
 import { Progreso1Component } from './Components/progreso1/progreso1.component';
 import { Progreso2Component } from './Components/progreso2/progreso2.component';
 import { Progreso3Component } from './Components/progreso3/progreso3.component';
@@ -51,8 +51,8 @@ import { Progreso0Component } from './Components/progreso0/progreso0.component';
     EstudiosComponent,
     HabilidadesComponent,
     ProyectosComponent,
-    GrupoTarjetasComponent,
-    TarjetaComponent,
+    ListGroupComponent,
+    ItemListComponent,
     Progreso1Component,
     Progreso2Component,
     Progreso3Component,

@@ -1,10 +1,10 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-tarjeta',
-  templateUrl: './tarjeta.component.html',
-  styleUrls: ['./tarjeta.component.css']
+  selector: 'app-item-list',
+  templateUrl: './item-list.component.html',
+  styleUrls: ['./item-list.component.css']
 })
-export class TarjetaComponent {
+export class ItemListComponent {
   @Input() dato = {titulo: '', subtitulo: '', descripcion: '', fecha: '', img: ''};
 }
