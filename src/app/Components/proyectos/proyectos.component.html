@@ -1,3 +1,6 @@
 <div class="">
     <h1 class="titulo">Proyectos</h1>
+    <div *ngFor="let proyecto of proyectos">
+        <app-card [dato]="proyecto"></app-card>
+    </div>
 </div>
