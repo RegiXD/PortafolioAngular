@@ -1,0 +1,14 @@
+<div [ngStyle]="posicion">
+    <div [ngSwitch]="tipo">
+        <div *ngSwitchCase = "'editar'">
+            <button class="btncircl"><fa-icon [icon]="pencil"></fa-icon></button>
+        </div>
+        <div *ngSwitchCase="'cerrar'">
+            <button class="btncircl"><fa-icon [icon]="cruz"></fa-icon></button>
+        </div>
+        <div *ngSwitchDefault class="src-file editararch">
+            <input type="file" aria-label="Archivo" accept="image/*">
+            <fa-icon [icon]="pencil" style="position: absolute; z-index: 1; right: 48%; top: 48%;"></fa-icon>
+        </div>
+    </div>
+</div>      

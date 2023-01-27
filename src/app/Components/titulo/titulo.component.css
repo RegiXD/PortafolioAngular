@@ -1,5 +1,12 @@
 .tit{
-    display: flex;
-    justify-content: center;
     padding: 20px 20px 0px 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones{
+    width: 11%;
 }

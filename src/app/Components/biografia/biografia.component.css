@@ -9,7 +9,7 @@
 
 .info{
     display: flex;
-    width: 80%;
+    width: 81%;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: flex-start;
@@ -18,4 +18,5 @@
 
 app-nom-ap{
     display: flex;
+    width: 19%;
 }

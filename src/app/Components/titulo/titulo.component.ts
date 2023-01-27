@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./titulo.component.css']
 })
 export class TituloComponent {
-
+  posEdit = {};
+  posClose = {};
 }
