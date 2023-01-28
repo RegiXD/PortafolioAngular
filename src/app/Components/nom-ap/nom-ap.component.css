@@ -3,6 +3,6 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    padding-bottom: 30%;
+    justify-content: space-around;
+    padding-bottom: 10%;
 }

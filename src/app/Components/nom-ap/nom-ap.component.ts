@@ -6,4 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./nom-ap.component.css']
 })
 export class NomApComponent {
+  posEdit = {'position': 'relative', 'left': '90%'};
 }

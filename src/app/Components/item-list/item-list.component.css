@@ -1,3 +1,7 @@
+.container{
+    position: relative;
+}
+
 .tarjeta{
     display: flex;
     min-height: 50px;
@@ -33,4 +37,11 @@ p{
 .aux{
     display: flex;
     justify-content: space-between;
+}
+
+.botones{
+    position: absolute;
+    left: 90%;
+    bottom: 90%;
+    width: 8%;
 }

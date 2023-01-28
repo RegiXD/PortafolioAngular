@@ -1,4 +1,9 @@
-<div class="tarjeta">
+<div class="container">
+    <div class="botones">
+        <app-btn-circl [tipo]="'editar'" [posicion]="posEdit"></app-btn-circl>
+        <app-btn-circl [tipo]="'cerrar'" [posicion]="posClose"></app-btn-circl>
+    </div>
+    <div class="tarjeta">
     <div class="img">
         <img src="{{dato.img}}">
     </div>
@@ -10,4 +15,4 @@
         <h4>{{dato.subtitulo}}</h4>
         <p>{{dato.descripcion}}</p>
     </div>
-</div>
+    </div></div>
