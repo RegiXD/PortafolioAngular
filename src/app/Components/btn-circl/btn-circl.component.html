@@ -1,8 +1,8 @@
 <div [ngSwitch]="tipo">
-    <div *ngSwitchCase = "'editar'">
+    <div *ngSwitchCase = "'editar'" [ngStyle]="{'visibility': visible ? 'visible':'hidden'}">
         <button  [ngStyle]="posicion" class="btncircl"><fa-icon [icon]="pencil"></fa-icon></button>
     </div>
-    <div *ngSwitchCase="'cerrar'">
+    <div *ngSwitchCase="'cerrar'" [ngStyle]="{'visibility': visible ? 'visible':'hidden'}">
         <button  [ngStyle]="posicion" class="btncircl"><fa-icon [icon]="cruz"></fa-icon></button>
     </div>
     <div  [ngStyle]="posicion" *ngSwitchDefault class="src-file editararch">

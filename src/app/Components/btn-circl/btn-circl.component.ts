@@ -9,6 +9,7 @@ import { faPen, faTimes } from '@fortawesome/free-solid-svg-icons'
 export class BtnCirclComponent {
   pencil = faPen;
   cruz = faTimes;
+  visible = false;
   @Input() posicion:any;
   @Input() tipo:string = "";
 }

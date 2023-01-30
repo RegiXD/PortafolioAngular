@@ -42,8 +42,12 @@ body{
     width: 100%;
 }
 
+.input{
+    border: #000 solid 1px;
+}
+
 .form-control {
-    margin: 20px 0;
+    margin: 20px;
 }
 
 .form-control label {

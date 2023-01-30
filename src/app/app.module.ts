@@ -31,6 +31,7 @@ import { Progreso4Component } from './Components/progreso4/progreso4.component';
 import { Progreso0Component } from './Components/progreso0/progreso0.component';
 import { CardComponent } from './Components/card/card.component';
 import { BtnCirclComponent } from './Components/btn-circl/btn-circl.component';
+import { LoginComponent } from './Components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +62,8 @@ import { BtnCirclComponent } from './Components/btn-circl/btn-circl.component';
     Progreso4Component,
     Progreso0Component,
     CardComponent,
-    BtnCirclComponent
+    BtnCirclComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
