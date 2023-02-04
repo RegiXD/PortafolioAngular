@@ -1,11 +1,3 @@
-.container {
-    position: fixed;
-    top: 50%; 
-    left: 50%;
-    margin-top: -172.5px; 
-    margin-left: -153.5px;
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -13,23 +5,40 @@
     font-family: 'Poppins',sans-serif;
 }
 
-body{
-    background: #1abc9c;
-    overflow: hidden;
+.wrapper {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+    transition: all .5s;
 }
 
-::selection{
-    background: rgba(26,188,156,0.3);
+#modal .wrapper .tarjeta{
+    width: 20%;
+    height: 43%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    font-size: 1.5em;
+    text-align: center;
 }
 
-.wrapper{
+.tarjeta{
     width: 100%;
     background: #fff;
     border-radius: 5px;
     box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
 }
 
-.wrapper .title{
+#modal .wrapper .tarjeta .title{
+    width: 100%;
     height: 90px;
     background: #373ab5;
     border-radius: 5px 5px 0 0;
@@ -41,17 +50,17 @@ body{
     justify-content: center;
 }
 
-.wrapper form{
+.tarjeta form{
     padding: 30px 25px 25px 25px;
 }
 
-.wrapper form .row{
+.tarjeta form .row{
     height: 45px;
     margin-bottom: 15px;
     position: relative;
 }
 
-.wrapper form .row input{
+.body form .row input{
     height: 100%;
     width: 100%;
     outline: none;
@@ -71,7 +80,7 @@ form .row input::placeholder{
     color: #999;
 }
 
-.wrapper form .row span{
+.body form .row span{
     position: absolute;
     width: 47px;
     height: 100%;
@@ -85,20 +94,47 @@ form .row input::placeholder{
     justify-content: center;
 }
 
-.wrapper form .button{
-    margin: 50px 0 0 0;
+hr{
+    margin: 50px 0 10px 0;
 }
 
-.wrapper form .button input{
+.button{
+    position: fixed;
+    z-index: 4;
+    top: 63vh;
+    left: 46vw;
+    height: 4.87%;
+    padding: 0 13px;
+    background: #373ab5;
+    font-size: 16px;
     color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    padding-left: 0px;
-    background: #373ab5;
-    border: 1px solid #373ab5;
+    border: none;
+    border-radius: 5px;
+    outline: none;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-form .button input:hover{
+form button:hover{
     background: #373ab5;
+}
+  
+#cerrar-modal {
+    display: none;
+}
+
+
+#cerrar-modal + label {
+    display: flex;
+    align-items: center;
+    left: 42vw;
+    background: #595959;
+}
+
+#cerrar-modal:checked ~ .wrapper {
+    top: -100vh;
+}
+
+#cerrar-modal:checked + label {
+    display: none;
 }

@@ -1,18 +1,46 @@
-<div class="container">
+<div id="modal">
+    <input id="cerrar-modal" type="radio" name="modal"/>
+    <label class="button" for="cerrar-modal">Cerrar</label>
+    <button class="button" >Ingresar</button>
     <div class="wrapper">
-        <div class="title"><span>Login Form</span></div>
-        <form action="#">
-            <div class="row">
-                <span> @ </span>
-                <input type="text" placeholder="Email or Phone" required>
+        <div class="tarjeta">
+            <div class="title"><span>Login Form</span></div>
+            <div class="body">
+                <form action="#">
+                    <div class="row">
+                        <span> @ </span>
+                        <input type="text" placeholder="Email or Phone" required>
+                    </div>
+                    <div class="row">
+                        <span><fa-icon [icon]="pass"></fa-icon></span>
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <hr>
+                </form>
             </div>
-            <div class="row">
-                <span><fa-icon [icon]="pass"></fa-icon></span>
-                <input type="password" placeholder="Password" required>
-            </div>
-            <div class="row button">
-                <input type="submit" value="Login">
-            </div>
-        </form>
+        </div>
     </div>
 </div>
+<!-- 
+<h2>Modal with :checked and radio buttons by Escuela Digital</h2>
+<input id="mostrar-modal" type="radio" name="modal" value="Ver Modal">
+<label for="mostrar-modal">Ver modal</label>
+<div id="modal">
+    <input id="cerrar-modal" type="radio" name="modal"/>
+    <label for="cerrar-modal">X</label>
+    <div class="body"><form action="#">
+        <div class="row">
+            <span> @ </span>
+            <input type="text" placeholder="Email or Phone" required>
+        </div>
+        <div class="row">
+            <span><fa-icon [icon]="pass"></fa-icon></span>
+            <input type="password" placeholder="Password" required>
+        </div>
+        <hr>
+        <div class="row buttons">
+            <button class="button" >Ingresar</button>
+        </div>
+    </form>
+    </div>
+</div> -->
