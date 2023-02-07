@@ -138,3 +138,11 @@ form button:hover{
 #cerrar-modal:checked + label {
     display: none;
 }
+
+#cerrar-modal:checked ~ button {
+    top: -100vh;
+}
+
+#cerrar-modal:checked ~ button {
+    display: none;
+}
