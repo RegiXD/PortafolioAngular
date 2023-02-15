@@ -5,3 +5,8 @@
     background-color:#31302a;
     height: 80px;
 }
+
+.botones{
+    display: flex;
+    margin-right: 20px;
+}

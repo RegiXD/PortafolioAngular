@@ -9,7 +9,7 @@
     background: rgba(0, 0, 0, 0.9);
     color: #fff;
     position: fixed;
-    top: 0;
+    top: -100vh;
     left: 0;
     height: 100vh;
     width: 100vw;
@@ -19,7 +19,7 @@
 
 #modal .wrapper .tarjeta{
     width: 20%;
-    height: 43%;
+    height: 40%;
     position: absolute;
     top: 0;
     left: 0;
@@ -101,32 +101,31 @@ hr{
 .button{
     position: fixed;
     z-index: 4;
-    top: 63vh;
+    top: 62vh;
     left: 46vw;
     height: 4.87%;
     padding: 0 13px;
     background: #373ab5;
+    display: none;
+    align-items: center;
     font-size: 16px;
     color: #fff;
     border: none;
     border-radius: 5px;
     outline: none;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 form button:hover{
     background: #373ab5;
 }
-  
+
 #cerrar-modal {
     display: none;
 }
 
-
 #cerrar-modal + label {
-    display: flex;
-    align-items: center;
     left: 42vw;
     background: #595959;
 }
@@ -135,14 +134,7 @@ form button:hover{
     top: -100vh;
 }
 
-#cerrar-modal:checked + label {
-    display: none;
-}
-
-#cerrar-modal:checked ~ button {
+#cerrar-modal:checked ~ .wrapper .button {
     top: -100vh;
-}
-
-#cerrar-modal:checked ~ button {
     display: none;
 }

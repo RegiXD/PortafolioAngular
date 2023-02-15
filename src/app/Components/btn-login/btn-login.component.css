@@ -1,3 +1,12 @@
-.btn{
+#mostrar-modal {
+    display: none;
+}
+
+#mostrar-modal + label {
     background-color: #198754;
+    cursor: pointer;
+}
+
+#mostrar-modal + label:hover {
+    background-color: #13643e;
 }
