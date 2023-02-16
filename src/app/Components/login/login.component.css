@@ -26,15 +26,11 @@
     bottom: 0;
     right: 0;
     margin: auto;
-    font-size: 1.5em;
-    text-align: center;
-}
-
-.tarjeta{
-    width: 100%;
     background: #fff;
     border-radius: 5px;
     box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+    font-size: 1.5em;
+    text-align: center;
 }
 
 #modal .wrapper .tarjeta .title{
@@ -106,7 +102,7 @@ hr{
     height: 4.87%;
     padding: 0 13px;
     background: #373ab5;
-    display: none;
+    display: flex;
     align-items: center;
     font-size: 16px;
     color: #fff;
@@ -135,6 +131,5 @@ form button:hover{
 }
 
 #cerrar-modal:checked ~ .wrapper .button {
-    top: -100vh;
-    display: none;
+    top: -62vh;
 }

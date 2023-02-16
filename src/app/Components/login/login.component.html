@@ -1,7 +1,7 @@
 <div id="modal">
     <app-btn-login (event)="Value($event)"></app-btn-login>
     <input id="cerrar-modal" type="radio" name="modal" (change)="Cerrar()"/>
-    <label class="button" for="cerrar-modal" [ngStyle]="value ? {'display': 'flex'} : {display:'none'}">Cerrar</label>
+    <label class="button" for="cerrar-modal" [ngStyle]="{'top': value ? '62vh' : '-62vh'}">Cerrar</label>
     <div class="wrapper" [ngStyle]="value ? {'top': '0'} : {top:''}">
         <div class="tarjeta">
             <div class="title"><span>Login Form</span></div>
@@ -17,7 +17,7 @@
                     </div>
                     <hr>
                     <div class="row">
-                        <button class="button"  [ngStyle]="value ? {'display': 'flex'} : {display:'none'}">Ingresar</button>
+                        <button class="button"  [ngStyle]="{'top': value ? '62vh' : '-62vh'}">Ingresar</button>
                     </div>
                 </form>
             </div>
